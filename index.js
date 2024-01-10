@@ -1,4 +1,4 @@
-document.getElementById('myHi').innerHTML = `Hello world`
+// document.getElementById('myHi').innerHTML = `Hello world`
 // This innerHtml is used for accessing the inside contents of html tags
 
 let x // declaration 
@@ -22,6 +22,13 @@ x = 5 // assignment
 // console.log(userName)
 
 // 2. professional way
+
+let userName;
+
+document.getElementById("myBtn").onclick = function () {
+    userName = document.getElementById("myText").value;
+    document.getElementById("myHi").textContent = userName;
+}
 
 
 
