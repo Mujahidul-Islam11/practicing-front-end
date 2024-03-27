@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+    background-color: rgba(108, 103, 103, 0.442);
+}
+
+#container{
+    background-color: rgba(255, 255, 255, 0.899);
+    max-width: 350px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.565);
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#container h3{
+    color: rgba(98, 98, 244, 0.801);
+    font-size: 1.5em;
+    padding: 10px 0 10px 0;
+}
+
+#inputBox{
+    font-size: 1.5em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    border-color: rgb(105, 100, 100);
+    margin-bottom: 10px;
+}
+
+#container label{
+    font-weight: bold;
+}
+
+#container button{
+    border: none;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    background-color: rgb(229, 74, 74);
+    font-size: 2em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#container button:hover{
+    background-color: rgba(234, 24, 24, 0.917);
+}
+
+#Result{
+    font-size: 1.75em;
+    font-weight: 200;
+}
