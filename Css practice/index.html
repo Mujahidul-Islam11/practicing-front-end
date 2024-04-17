@@ -5,21 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Css color property</title>
 
-    <!-- <style>
-      h1 {
-        color: red; // it means give all of the h1 
-                       tags red color
+    <style>
+      * {
+        background-color: rgb(154, 98, 207);
       }
+      /* has the lowest priority (universal selector) */
+      h1 {
+        color: red; 
+      }
+       /* it means give all of the h1 tags red color (element selector) */
       p {
         color: blueviolet;
       }
-    </style> internal styling -->
+
+
+      #head2 {
+        color: blue; 
+      }
+      /* Unique id selector, highest priority then every selector */
+      .head3 {
+        color: aqua;
+      }
+      /* Class selector, one class can apply styles in many elements */
+    
+
+      /* h1, h2, h3 {
+        color:brown
+      } 
+      #head2, .head3 {
+        color: yellow;
+      }
+      Group selector */
+
+
+      /* 
+      div p {
+        color: black;
+      }
+      Descendant selector
+      */
+
+
+      
+    </style> 
+    /* internal styling */
 
     <link rel="stylesheet" href="style.css" />
     <!-- External styling -->
   </head>
   <body>
     <h1 style="color: brown">This is heading</h1>
+    <h1 id="head2" class="head3">This is heading(2)</h1>
     <!-- Inline styling (It will have the highest priority) -->
     <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sit ipsam
