@@ -17,19 +17,48 @@
             margin: 0;
             padding: 0;
          }
-         .box {
+         #box1 {
             width: 100px;
             height: 100px;
             margin: 5px;
             background-color: olivedrab;
             /* display: block; takes the whole space*/
             /* display: inline; takes space by
-             element size*/
+             element size, and can't give a fix size*/
+             /* display: inline-block; the box will
+             be inline element but it will take the
+             fix size and width also */
+             /* display: none; will vanish the 
+             whole element */
+             /* px - Absolute pixel value
+                % - A percentage of the parent element
+                100% is the width of 
+                the parent element
+                em - Relative to the font size of
+                the element
+                vh - Relative to 1% of the value
+                rem - Relative to the font size of 
+                the root element
+                vw - Relative to 1% of the value */
+         }
+         #box2 {
+            /*width: 50%; Will take 50% width 
+            from 100% width of parent div 
+            - here parent dive is Box-1
+            height: 30%;*/
+            background-color: red;
+            /* display: block; takes the whole space*/
+            /* font-size: 2em; it will take double size
+            by the size of the parent element font */
+            /* font-size: 0.5rem; will take half size
+            of root*/
          }
     </style>
 </head>
 <body>
-    <div id="box1" class="box">Box -1</div>
-    <div id="box2" class="box">Box -2</div>
+    <div id="box1" class="box">
+        Box -1
+        <div id="box2" class="box">Box -2</div>
+    </div>
 </body>
 </html>
