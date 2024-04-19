@@ -35,6 +35,7 @@
             width: 200px;
             background-color: lightgreen;
             /* float: right; */
+            margin:10px;
         }
         #box-1 {
             grid-row: 2/2;
@@ -60,10 +61,20 @@
             Order 4 means it will take place in 
             4th number serial */
         }
+        #box-5{
+          width: 500px;  
+        }
+        @media screen and (min-width: 400px /*if maximum 
+        width is 400px or less then it, and
+        minimum means 400px or getter then it*/) {
+            #box-5{
+            width: 100px;
+        }
+        }
     </style>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div id="box-1" class="box">
             Box-1
         </div>
@@ -76,6 +87,10 @@
         <div id="box-4" class="box">
             Box-4
         </div>
+    </div> -->
+    <div id="box-5" class="box">
+        Box
     </div>
+
 </body>
 </html>
