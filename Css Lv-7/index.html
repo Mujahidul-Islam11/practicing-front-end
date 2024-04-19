@@ -10,8 +10,14 @@
             padding: 10px 25px; /*y axis, x axis*/
             border-radius: 30px;
             border: none;
+            /* transition: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s; */
+            transition: all 1s ease-in-out 0s;
         }
         #btn:hover {
+            padding: 25px 25px;
             cursor: pointer;
             background-color: lightblue;
             color: white;
@@ -20,10 +26,47 @@
             background-color: white;
             color: black;
         }
-        
+
+        .box {
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            background-color: aqua;
+            cursor: pointer;
+            position: relative;
+            top: 50px;
+            left: 10px;
+            animation: ghura;
+            animation-duration: 1s;
+            animation-timing-function: ease-in;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            
+        }
+        .box:hover{
+             transition: all 0.5s ease-in;
+            /* transform: rotate(90deg); */
+            /* transform: rotateX(45deg); */
+            /* transform: scale(2); size will
+             be bigger */
+             /* transform: translate(50px, 50px); x, y axis
+             50px*/
+             /* transform: skew(45deg); */
+             
+        }
+
+        @keyframes ghura {
+            /* from {top:50px; left: 10px;}
+            to {top:-50px; left: 100px;} */
+            /* 0%{top:50px; left: 10px;}
+            50%{top:30px; left: 100px;}
+            100%{top:-50px; left: 10px;} */
+        }
     </style>
 </head>
 <body>
-    <button id="btn">Click</button>
+    <!-- <button id="btn">Click</button> -->
+    <div class="box" id="box1">Box</div>
 </body>
 </html>
