@@ -1,3 +1,89 @@
 body {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 8px;
+    .sub-btn {
+        background: #C10001;
+        font-size: 1.5em;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        transition: background 0.20s, color 0.20s;
+        -webkit-transition: background 0.20s, color 0.20s;
+        -moz-transition: background 0.20s, color 0.20s;
+        -ms-transition: background 0.20s, color 0.20s;
+        -o-transition: background 0.20s, color 0.20s;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-weight: 600;
+        &:hover
+{ 
+            background: none;
+            color: #C10001;
+            border: 2px solid #C10001;
+            padding: 10px 20px;
+        }
+}
+    .join-btn {
+        background: none;
+        font-size: 1.5em;
+        color: rgb(0, 149, 255);
+        border: 2px solid rgb(0, 149, 255);
+        padding: 10px 20px;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        transition: background 0.20s, color 0.20s;
+        -webkit-transition: background 0.20s, color 0.20s;
+        -moz-transition: background 0.20s, color 0.20s;
+        -ms-transition: background 0.20s, color 0.20s;
+        -o-transition: background 0.20s, color 0.20s;
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+        &:hover 
+{ 
+            background: rgb(0, 149, 255);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+        }
+    }
+    .tweet-btn {
+        background: rgb(0, 149, 255);
+        font-size: 1.5em;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 48px;
+        -webkit-border-radius: 48px;
+        -moz-border-radius: 48px;
+        -ms-border-radius: 48px;
+        -o-border-radius: 48px;
+        transition: opacity 0.20s, box-shadow 0.20s;
+        -webkit-transition: opacity 0.20s, box-shadow 0.20s;
+        -moz-transition: opacity 0.20s, box-shadow 0.20s;
+        -ms-transition: opacity 0.20s, box-shadow 0.20s;
+        -o-transition: opacity 0.20s, box-shadow 0.20s;
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+        &:hover
+{
+            opacity: 0.5;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* right, bottom, blur */
+        }
+    }
 }
