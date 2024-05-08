@@ -8,3 +8,60 @@ ul, li {
   padding: 0;
   list-style-type: none;
 }
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin: 0 auto;
+}
+
+header{
+  grid-column: span 3;
+  text-align: center;
+  border-bottom: 1px solid #bcb;
+}
+nav, aside, article{
+  padding: 20px;
+}
+nav li{
+  text-decoration: underline;
+}
+footer{
+  grid-column: span 3;
+  text-align: center;
+  border-top: 1px solid #bcb;
+}
+article{
+  border-left: 1px solid #bcb;
+  border-right: 1px solid #bcb;
+  img{
+    width: 100%;
+  }
+}
+
+@media  screen and (max-width:980px) {
+  nav{
+    grid-column: span 3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  article{
+    grid-column: span 2;
+  }
+}
+@media  screen and (max-width:600px) {
+  nav, article, aside{
+    grid-column: span 3;
+  }
+  article{
+    border: 0;
+  }
+  nav{
+    border-bottom: 1px solid #bcb;
+  }
+  aside{
+    border-top: 1px solid #bcb;
+  }
+}
