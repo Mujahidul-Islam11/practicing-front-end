@@ -27,10 +27,23 @@
 // }
 
 
-for(let i = 0; i <=200; i++){
-if(i == 100){
-    console.log(`Found 100!`)
-    break
-}
-console.log(i)
-}
+// for(let i = 0; i <=200; i++){
+// if(i == 100){
+//     console.log(`Found 100!`)
+//     break
+// }
+// console.log(i)
+// }
+
+// let num = 0;
+// let sum = 0;
+
+// while(true){
+//     sum = sum + num; 
+//     num++;
+//     if(sum >= 100){
+//         break;
+//     }
+//     console.log(sum);
+// }
+
