@@ -11,4 +11,5 @@ const clg = {
     }
 }
 clg.unique.result.merit = ' top top top'
-console.log(clg.unique.result.merit)
+console.log(clg)
+delete clg.name;
