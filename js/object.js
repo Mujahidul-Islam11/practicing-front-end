@@ -14,4 +14,4 @@
 //     hobbies: ['dancing', 'singing', 'painting']
 // }
 
-// console.log(user)
+// console.log(user);
