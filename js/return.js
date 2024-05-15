@@ -1,9 +1,11 @@
 function sumOfNum (nums){
-    let sum = 0;
+    let even = [];
     for(const num of nums){
-        sum = sum + num;
+        if(num%2 === 0){
+            even.push(num);
+        }
     }
-    return sum
+    return even
 }
 
 console.log('sum of numbers',sumOfNum([3,4,5,6]))
