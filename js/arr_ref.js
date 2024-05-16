@@ -32,7 +32,9 @@ copiedArray.push(5)
 
 // myFunction(1,2,3,4,5)
 const myFunction = (...rest) =>{
-    console.log(rest)
+    rest.forEach((r)=>{
+        console.log(r)
+    })
 }
 
 myFunction(1,2,3,4,5)
