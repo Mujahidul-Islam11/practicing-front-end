@@ -1,5 +1,8 @@
-const myFunction = (...rest) =>{
-    console.log(rest)
+const myFunction = (greet) =>{
+    console.log(greet)
+}
+export const otherFunc = (greet) =>{
+    console.log(greet)
 }
 
-export default myFunction()
+export default myFunction

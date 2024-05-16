@@ -1,3 +1,4 @@
-import func from './exp_imp.js'
+import func, {otherFunc} from './exp_imp.js'
 
-func(1, 3, 4, 5, 6)
+func("hello world!")
+otherFunc("hello new bodda!")
