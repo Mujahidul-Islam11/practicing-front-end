@@ -10,3 +10,20 @@ user2 = 'batash'; // can reassigned a value but can't be declared again with the
 const user3 = "ata moida";
 //user3 = "bilai";  TypeError: Assignment to constant variable.
 //console.log(user3)  can't be reassigned a value and also can't be declared again
+
+
+
+// Primitive datatypes
+// string : "Texts"
+// numbers : 3000
+// boolean : true/false
+// Null 
+// undefined
+
+/** Why they are called the primitive datatypes?  ans:- Because they are the primary or primitive
+ * data's of JavaScript.
+ * Note:- Non-Primitive datatypes will be made by primitive datatypes, because they are main 
+ * primary datatypes.
+*/
+
+// Non-Primitive datatypes / Reference datatypes
