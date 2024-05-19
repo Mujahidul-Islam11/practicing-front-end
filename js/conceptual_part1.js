@@ -31,6 +31,7 @@ const user3 = "ata moida";
 // object
 // array
 
+// They are called non-primitive because they hold the reference of value
 let phone = "Hello world";
 
 const phoneCall = phone.substring(0,5);
