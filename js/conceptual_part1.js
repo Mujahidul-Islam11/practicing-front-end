@@ -1,6 +1,6 @@
 var user1 = 'd';
 var user1 = 'f'; // can be reassigned and also can be redeclare
-console.log(user1) // Output: f
+//console.log(user1)  Output: f
 
 let user2 = "akash";
 // let user2 = 'khalash'; SyntaxError: Identifier 'user2' has already been declared
@@ -27,3 +27,11 @@ const user3 = "ata moida";
 */
 
 // Non-Primitive datatypes / Reference datatypes
+// function
+// object
+// array
+
+let phone = "Hello world";
+
+const phoneCall = phone.substring(0,5);
+console.log(phoneCall)
