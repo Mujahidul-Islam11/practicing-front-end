@@ -7,4 +7,10 @@ const fullDigit = id.padStart(6, "0"); //make a six digit number, if there is le
 const studentNumber = 1;
 const studentNumberString = studentNumber.toString(); // convert the number into a string
 
-console.log(studentNumberString)
+// console.log(studentNumberString.padStart(4, "0"))
+
+const orderOne = 1;
+const firstOrder = orderOne.toString().padStart(4, "0");
+
+const secondOrder = firstOrder.substring(3);
+console.log(parseInt(secondOrder) + 1)
