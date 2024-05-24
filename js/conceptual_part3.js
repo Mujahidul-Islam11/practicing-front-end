@@ -10,10 +10,14 @@ for (let i = 0; i <= 10; i++) {
 
 const names = ["mir", "mezba", "rakib"];
 
-// for(let i = 0; i <3; i++){
+
+// for(let i = 0; i <names.length; i++){
 //     console.log(names[i]);
 // }
-
+// for(let name of names){
+//     console.log(name);
+// }
 // names.forEach(name => {
 //     console.log(name);
 // });
+
