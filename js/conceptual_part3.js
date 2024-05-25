@@ -21,11 +21,11 @@ const names = ["mir", "mezba", "rakib"];
 //     console.log(name);
 // });
 
-// const mentor ={
-//   name: "ravi",
-//   age: 24,
-//   isDeveloper: true
-// }
+const mentor ={
+  name: "ravi",
+  age: 24,
+  isDeveloper: true
+}
 
 // const keys = Object.keys(mentor);
 // console.log(keys)
@@ -39,7 +39,8 @@ const names = ["mir", "mezba", "rakib"];
  * 2. mentor["name"], mentor["age"], mentor["isDeveloper"]
  */
 // for(let key in mentor){
-//   console.log(mentor[key])
+//   console.log(mentor[key]) //1 mentor[name], 2 mentor[age], 3 mentor[isDeveloper]
+// output:- ravi 24 true
 // }
 
 
@@ -50,7 +51,7 @@ const names = ["mir", "mezba", "rakib"];
 // }
 
 // randomFunc((number)=>{
-//   console.log(number)
+//   console.log(number) // 3
 // })
 
 const mentorList = [
@@ -76,11 +77,29 @@ const mentorList = [
 //   return mentor
 // })
 // filter er kaj jegula jegula match kore ogula dea
-// console.log(mentor25)
+// console.log(mentor25) // [
+//   { name: 'ravi', age: 28, isDeveloper: true },
+//   { name: 'ravi', age: 26, isDeveloper: true }
+// ]
 
 // const mentor25 = mentorList.find(mentor => {
 //   if(mentor.age === 25)
 //   return mentor
 // })
 // find er kaj specific ekti single data khuje dea
-// console.log(mentor25)
+// console.log(mentor25) // { name: 'ravi', age: 28, isDeveloper: true }
+
+
+// forEach & map = same 
+// note:- forEach can't return anything from inside but map can
+
+const eachInstructor = names.forEach(name => {
+  return name;
+});
+
+// console.log(eachInstructor); // undefined
+const eachInstructor2 = names.map(name => {
+  return name;
+});
+
+// console.log(eachInstructor2); // [ 'mir', 'mezba', 'rakib' ]
