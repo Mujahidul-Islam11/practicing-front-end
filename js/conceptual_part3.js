@@ -26,7 +26,11 @@ const mentor ={
   age: 24,
   isDeveloper: true
 }
-
+// how to access object values
+/**
+ * 1. mentor.name, mentor.age, mentor.isDeveloper
+ * 2. mentor["name"], mentor["age"], mentor["isDeveloper"]
+ */
 for(let key in mentor){
   console.log(mentor[key])
 }
