@@ -21,3 +21,12 @@ const names = ["mir", "mezba", "rakib"];
 //     console.log(name);
 // });
 
+const mentor ={
+  name: "ravi",
+  age: 24,
+  isDeveloper: true
+}
+
+for(let key in mentor){
+  console.log(mentor[key])
+}
