@@ -48,13 +48,32 @@ const mentorList = [
   // forEach & map = same 
   // note:- forEach can't return anything from inside but map can
   
-  const eachInstructor = names.forEach(name => {
-    return name;
-  });
+  // const eachInstructor = names.forEach(name => {
+  //   return name;
+  // });
   
-  // console.log(eachInstructor); // undefined
-  const eachInstructor2 = names.map(name => {
-    return name;
-  });
+  // // console.log(eachInstructor); // undefined
+  // const eachInstructor2 = names.map(name => {
+  //   return name;
+  // });
   
   // console.log(eachInstructor2); // [ 'mir', 'mezba', 'rakib' ]
+
+  // note :- we use map when we need to create a new array, and we use forEach 
+  // when we need to do any operations on the elements of an existing array
+
+  const arr = [1, 2, 3, 4, 5];
+
+  const newValue = arr.reduce((previousValue, currentValue)=>{
+    return previousValue + currentValue;
+  })
+  console.log(newValue);
+
+  /**
+   * The process of reduce function
+   * 1. [1, 2, 3, 4, 5];
+   * 2. [3, 3, 4, 5];
+   * 3. [6, 4, 5];
+   * 4. [10, 5];
+   * 5. [15];
+   */
