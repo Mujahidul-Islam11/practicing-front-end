@@ -27,5 +27,5 @@ const numbers = [1, 3, 5, 6];
 const total = numbers.reduce((previousValue, currentValue) => {
   return previousValue + currentValue;
 });
-
+// reduce holds the previousValue and the currentValue of data
 console.log(total);
