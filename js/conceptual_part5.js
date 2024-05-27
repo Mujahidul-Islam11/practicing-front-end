@@ -24,8 +24,17 @@ const numbers = [1, 3, 5, 6];
 
 // Easy way with reduce method
 
-const total = numbers.reduce((previousValue, currentValue) => {
-  return previousValue + currentValue;
-});
+// const total = numbers.reduce((previousValue, currentValue) => {
+//   return previousValue + currentValue;
+// });
 // reduce holds the previousValue and the currentValue of data
-console.log(total);
+// console.log(total);
+
+const higherOrderFunc = (callback) =>{
+console.log("This is a higher order function because it holds an function as parameter");
+callback();
+}
+
+higherOrderFunc(()=>{
+  console.log("This is a call back function")
+})
