@@ -9,3 +9,5 @@ The flex direction row/column reverse reverses the row from its main position
 flex-wrap: wrap;
 If there is no space for the items in the flex container, the items that are not sticking in the container will start from the next row.
 
+flex-wrap: wrap-reverse;
+After using the wrap-reverse property, the item that is not sticking in the container will take place in first row, and the first row's items will replaced in second row
