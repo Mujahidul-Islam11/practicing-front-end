@@ -21,3 +21,6 @@ Align items property is used for aligning the items within the cross axis.
 
 *align-items: flex-start;
 flex start moves the items in the top position within the cross axis.
+
+*flex-grow: 1;
+If is there any space in the main axis including the items then the items will take the width of the space and will take whole of main axis.
