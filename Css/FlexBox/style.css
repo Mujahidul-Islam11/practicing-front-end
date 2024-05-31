@@ -1,20 +1,29 @@
-.parent{
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .container-1-1 {
     display: flex;
-    gap: 20px;
-    margin: 20px;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    height: 100vh;
-    main{
-        background-color: aqua;
-        padding: 12px;
-        width: 200px;
+    flex-direction: column;
+    flex-basis: 100%;
+    .item-a {
+      background-color: aqua;
     }
-    section{
-        background-color: blue;
-        padding: 12px;
-        color: white;
-        width: 200px;
-        flex-grow: 1;
+    .item-b {
+      background-color: blueviolet;
     }
+    .item-d {
+      background-color: yellowgreen;
+    }
+  }
+  .container-1-2{
+    display: flex;
+    flex-basis: 100%;
+    .item-c{
+        background-color: rebeccapurple;
+    }
+  }
+  .item{
+    flex-grow: 1;
+  }
 }
