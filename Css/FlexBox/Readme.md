@@ -19,3 +19,5 @@ Values:- start, end, center, space-between, space-evenly etc.
 *align-items property 
 Align items property is used for aligning the items within the cross axis.
 
+*align-items: flex-start;
+flex start moves the items in the top position within the cross axis.
