@@ -4,6 +4,10 @@
   gap: 20px;
   align-items: center;
   height: 100vh;
+  position: relative;
+  width: 1000px;
+  border: 1px solid red;
+  margin: 30px;
 }
 
 .item {
@@ -16,8 +20,8 @@
 
 .item-1 {
   position: absolute;
-  /* top: 0;
-  right: 0; */
-  left: 0;
-  bottom: 0;
+  top: -20px;
+  right: -40px;
+  /* left: 0;
+  bottom: 0; */
 }

@@ -1,1 +1,2 @@
 Absolute positioned items are removed from the whole document. It overflows over the every element added in the document body.
+-if we give the parent position relative the absolute positioned item will be absolute inside the parent element.
