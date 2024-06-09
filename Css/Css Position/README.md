@@ -7,3 +7,6 @@ Absolute positioned items are removed from the whole document. It overflows over
 top, right, bottom, left properties. *
 -position static element has the access to the top, right, bottom, left properties.
 note:- it also overflows over the elements after setting top, right, bottom, left properties.
+
+## Position: sticky;
+-position sticky property only works inside the parent element.

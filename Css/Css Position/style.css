@@ -19,8 +19,8 @@
 }
 
 .item-1 {
-  position: absolute;
-  top: -20px;
+  position: sticky;
+  top: 0;
   right: -40px;
   /* left: 0;
   bottom: 0; */
