@@ -1,11 +1,9 @@
 .parent {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
   align-items: center;
   height: 100vh;
-  gap: 20px;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 .item {
@@ -14,4 +12,12 @@
   width: 100px;
   height: 100px;
   text-align: center;
+}
+
+.item-1 {
+  position: absolute;
+  /* top: 0;
+  right: 0; */
+  left: 0;
+  bottom: 0;
 }
