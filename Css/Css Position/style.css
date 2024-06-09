@@ -1,0 +1,17 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.item {
+  padding: 20px;
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
