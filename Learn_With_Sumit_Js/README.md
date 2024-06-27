@@ -5,3 +5,8 @@ For example,
 
 
 For better readability, programmers often like to avoid code lines longer then 80 characters.
+
+The JavaScript syntax defines two types of values:
+Fixed value (This are called literals)
+Variable value (This are called variables)
+
