@@ -14,7 +14,7 @@ const valueOfScore = Number(score);
  */
 
 
-let isLoggedIn = 1;
+let isLoggedIn = null;
 
 const booleanIsLoggedIn = Boolean(isLoggedIn);
 
@@ -22,5 +22,11 @@ console.log(booleanIsLoggedIn);
 
 
 /**
+ * ------- isLoggedInValue => console.log(output) --------
  * 1 => true
+ * 0 => false
+ * "" => false
+ * "Dinar" => true
+ * undefined => false
+ * null => false
  */
