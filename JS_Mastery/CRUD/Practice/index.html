@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice - CRUD (DOM Manipulation)</title>
+</head>
+<body>
+    <ol id="list-item">
+      <li>Item 1</li>
+    </ol>
+
+    <button id="add">Add</button>
+    <button id="remove">Remove</button>
+
+    <script>
+        const list = document.querySelector("#list-item");
+        const add = document.querySelector("#add");
+        const remove = document.querySelector("#remove");
+
+        add.addEventListener("click", ()=> {
+            const newItem = document.createElement("li");
+            newItem.textContent = `Item ${list.children.length + 1}`
+            list.appendChild(newItem);
+        })
+
+        remove.addEventListener("click", ()=> {
+            list.removeChild(list.lastChild)
+        })
+    </script>
+</body>
+</html>
