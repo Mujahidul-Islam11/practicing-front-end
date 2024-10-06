@@ -6,6 +6,7 @@
     <title>CRUD - DOM Manipulation</title>
   </head>
   <body>
+    <a id="link" href="">Hey yoo google</a>
     <ol id="container">
       <li>Item 1</li>
       <li>Item 2</li>
@@ -27,6 +28,9 @@
         container.removeChild(newItem)
       })
 
+      // add attribute
+      const link = document.querySelector("#link");
+      link.setAttribute("href", "www.google.com");
     </script>
   </body>
 </html>

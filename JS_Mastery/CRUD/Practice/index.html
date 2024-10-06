@@ -25,7 +25,9 @@
         })
 
         remove.addEventListener("click", ()=> {
-            list.removeChild(list.lastChild)
+            if(list.children.length >1){
+                list.removeChild(list.lastChild)
+            }
         })
     </script>
 </body>
