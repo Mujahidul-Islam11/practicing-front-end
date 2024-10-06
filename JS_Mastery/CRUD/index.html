@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD - DOM Manipulation</title>
+  </head>
+  <body>
+    <ol id="container">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 2</li> <button id="btn">Remove new item</button>
+    </ol>
+
+    <script>
+      // create
+      const newItem = document.createElement("li");
+      newItem.textContent = "New Item";
+
+      // add
+      const container = document.querySelector("#container");
+      container.appendChild(newItem);
+
+      // delete
+      const btn = document.querySelector("#btn");
+      btn.addEventListener("click", ()=>{
+        container.removeChild(newItem)
+      })
+
+    </script>
+  </body>
+</html>
