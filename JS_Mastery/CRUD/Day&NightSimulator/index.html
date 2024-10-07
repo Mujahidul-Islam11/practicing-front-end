@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day & Night Simulator</title>
-</head>
-<body>
-   <video src=""></video> 
-</body>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+      }
+
+      video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+      }
+
+      #btn{
+        position: absolute;
+        right: 60px;
+        top: 30px;
+        background-color: white;
+        padding: 6px 12px;
+        font-size: 24px;
+        font-family: 400;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <video id="mode" src="./assets/day.mp4" alt="day" autoplay loop muted></video>
+    <button id="btn"
+    >
+      Night
+    </button>
+    <script src="script.js"></script>
+  </body>
 </html>
