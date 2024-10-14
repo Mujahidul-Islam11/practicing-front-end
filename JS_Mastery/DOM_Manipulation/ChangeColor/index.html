@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #colorBox {
+            width: 200px;
+            height: 200px;
+            background-color: lightgray;
+            margin: 20px;
+        }
+    </style>
+    <title>Color Changer</title>
+</head>
+<body>
+    <div id="colorBox"></div>
+    <button id="redBtn">Red</button>
+    <button id="greenBtn">Green</button>
+    <button id="blueBtn">Blue</button>
+
+    <script>
+        const colorBox = document.querySelector("#colorBox");
+        const redButton = document.querySelector("#redBtn");
+        const greenButton = document.querySelector("#greenBtn");
+        const blueButton = document.querySelector("#blueBtn");
+
+        redButton.addEventListener("click", () => {
+            colorBox.style.backgroundColor = "red";
+        });
+
+        greenButton.addEventListener("click", () => {
+            colorBox.style.backgroundColor = "green";
+        });
+
+        blueButton.addEventListener("click", () => {
+            colorBox.style.backgroundColor = "blue";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body
+    style="
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    "
+  >
+    <section>
+      <h3>Share your thoughts</h3>
+      <textarea id="inpBox" cols="30" rows="10"></textarea>
+      <button id="btn">Comment</button>
+      <div id="commentBox">
+
+      </div>
+    </section>
+
+    <script>
+        const commentInp = document.querySelector("#inpBox");
+        const commentBtn = document.querySelector("#btn");
+        const commentBox = document.querySelector("#commentBox");
+
+        commentBtn.addEventListener("click", ()=>{
+            const inputValue = commentInp.value;
+            const newEl = document.createElement("p");
+            newEl.innerText = inputValue;
+            commentBox.appendChild(newEl);
+        })
+    </script>
+  </body>
+</html>
