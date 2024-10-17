@@ -29,8 +29,7 @@
 
         commentBtn.addEventListener("click", ()=>{
             const inputValue = commentInp.value;
-            const newEl = document.createElement("p");
-            newEl.innerText = inputValue;
+            const newEl = document.createElement("p").innerText = inputValue;
             commentBox.appendChild(newEl);
             commentInp.value = ""
         })
