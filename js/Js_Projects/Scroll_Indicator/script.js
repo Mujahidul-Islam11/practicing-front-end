@@ -9,3 +9,5 @@ window.addEventListener("scroll", () => {
   let scrolled = (scrollTop / scrollHeight) * 100;
   indicator.style.width = `${scrolled}%`;
 });
+
+
