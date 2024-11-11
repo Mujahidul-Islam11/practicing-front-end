@@ -10,4 +10,5 @@ window.addEventListener("scroll", () => {
   indicator.style.width = `${scrolled}%`;
 });
 
+// Indicator created
 
