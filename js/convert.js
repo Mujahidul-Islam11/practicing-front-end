@@ -71,11 +71,20 @@ ppl.forEach((item) => {
 
 // console.log(ppl, ppl.length, newPpl, newPpl.length);
 
-const today = new Date();
-console.log(today.toLocaleString());
+// const today = new Date();
+// console.log(today.toLocaleString());
 
-const date = new Date("2025-11-18");
-console.log(date.toDateString());
+// const date = new Date("2025-11-18");
+// console.log(date.toDateString());
 
-const newDate = new Date(2025, 0, 18);
-console.log(newDate.toDateString());
+// const newDate = new Date(2025, 0, 18);
+// console.log(newDate.toDateString());
+
+let x = 4;
+let y = 8;
+
+console.log(x, y);
+
+[x, y] = [y, x];
+
+console.log(x, y)
