@@ -69,4 +69,13 @@ ppl.forEach((item) => {
   }
 });
 
-console.log(ppl, ppl.length, newPpl, newPpl.length);
+// console.log(ppl, ppl.length, newPpl, newPpl.length);
+
+const today = new Date();
+console.log(today.toLocaleString());
+
+const date = new Date("2025-11-18");
+console.log(date.toDateString());
+
+const newDate = new Date(2025, 0, 18);
+console.log(newDate.toDateString());
