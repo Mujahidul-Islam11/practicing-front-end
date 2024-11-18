@@ -15,9 +15,23 @@ function inchToFeet2(inch) {
 
 // console.log(inchToFeet2(85));
 
-function mileToKilometer(mile){
-    const km = mile * 1.60934;
-    return km;
+function mileToKilometer(mile) {
+  const km = mile * 1.60934;
+  return km;
+}
+function gramToKiloGram(gram) {
+  const kg = gram * 0.001;
+  return kg;
 }
 
-console.log(mileToKilometer(32));
+// console.log(gramToKiloGram(10000));
+
+function leapYear(year) {
+  if (year % 4 === 0) {
+    console.log(year + " is a leap year")
+  }else{
+    console.log(year + " isn't leap year")
+  }
+}
+
+leapYear(2024);
