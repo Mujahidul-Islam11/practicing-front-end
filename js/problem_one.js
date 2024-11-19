@@ -83,8 +83,18 @@ ppl.forEach((item) => {
 let x = 4;
 let y = 8;
 
-console.log(x, y);
+// console.log(x, y);
 
 [x, y] = [y, x];
 
-console.log(x, y)
+// console.log(x, y);
+
+
+// Write a function to convert temperature from Celsius to Fahrenheit.
+
+function celsiusToFahrenheit(celsius){
+  const fahrenheit = (celsius * 9/5) + 32;
+  return console.log(fahrenheit);
+}
+
+celsiusToFahrenheit(3);
