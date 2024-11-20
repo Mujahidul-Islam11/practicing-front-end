@@ -97,4 +97,12 @@ function celsiusToFahrenheit(celsius){
   return console.log(fahrenheit);
 }
 
-celsiusToFahrenheit(3);
+// celsiusToFahrenheit(3);
+
+// You are given an array of numbers. Count how many times the a number is repeated in the array.
+
+const numbs = [5, 6, 11, 12, 98, 5];
+
+numbs.forEach(num => {
+  console.log(num)
+})
