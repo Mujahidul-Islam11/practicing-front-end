@@ -58,7 +58,7 @@ const numbers = [1, 24, 56, 45, 12, 53, 88];
 //   }
 // });
 
-const ppl = ["abul", "abul", "bulbul", "culbul", "bulbul", "culbul pande"];
+const ppl = ["abul", "dabul", "bulbul", "culbul", "bulbul", "culbul pande"];
 
 const newPpl = [];
 ppl.forEach((item) => {
