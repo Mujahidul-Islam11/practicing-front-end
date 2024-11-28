@@ -104,5 +104,14 @@ function celsiusToFahrenheit(celsius){
 const numbs = [5, 6, 11, 12, 98, 5];
 
 numbs.forEach(num => {
-  console.log(num)
+  // console.log(num)
 })
+
+
+// reverse a string
+
+const str = "Hello Dinar, How are you??"
+const splitStr = str.split("");
+const reverseStr = splitStr.reverse();
+const newStr = reverseStr.join("");
+console.log(newStr)
