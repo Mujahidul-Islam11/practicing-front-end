@@ -112,4 +112,4 @@ numbs.forEach(num => {
 
 const str = "Hello Dinar, How are you??"
 const newStr = str.split("").reverse().join("");
-console.log(newStr)
+console.log("reversed string:", newStr)
