@@ -5,3 +5,4 @@
 //     num++;
 // }
 
+// while the num is smaller then the 100 do this
