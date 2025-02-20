@@ -1,0 +1,44 @@
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 95vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.modal {
+  width: 300px;
+  padding: 8px 12px;
+  text-align: center;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  background-color: rgb(190, 189, 189);
+  position: absolute;
+  visibility: hidden;
+}
+
+.btn {
+  color: black;
+  background-color: aquamarine;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  cursor: pointer;
+}
+
+#modalOpenBtn:hover {
+  background-color: rgb(177, 255, 229);
+}
